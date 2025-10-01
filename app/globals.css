@@ -1,0 +1,15 @@
+.Top-Swiper {
+	transition: transform 300ms;
+	-webkit-transition: transform 300ms;
+	-moz-transition: transform 300ms;
+	-ms-transition: transform 300ms;
+	-o-transition: transform 300ms;
+}
+.grab {
+	cursor: grab;
+	cursor: -webkit-grab;
+}
+.grab:active {
+	cursor: -webkit-grabbing;
+	cursor: grabbing;
+}
