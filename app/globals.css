@@ -13,3 +13,59 @@
 	cursor: -webkit-grabbing;
 	cursor: grabbing;
 }
+@media screen and (max-width: 1023px) {
+	.Product-categorie-container {
+		padding: 20px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.View-All-btn {
+		display: none;
+	}
+}
+@media screen and (min-width: 768px) {
+	.View-All-btn-sec {
+		display: none;
+	}
+}
+.View-All-btn-sec {
+	text-align: center;
+}
+@media screen and (max-width: 640px) {
+	.on-sale-cart-1 {
+		flex-direction: column;
+		gap: 5px !important;
+	}
+	.xsm\:grid-cols-2 {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+	.Price-Seperator {
+		width: 95%;
+		font-weight: 700;
+		margin: 15px auto;
+		padding: 6px 20px;
+		/* border: 1px solid var(--color-theme); */
+		border: 1px solid var(--color-border-1);
+		border-radius: 0;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		-ms-border-radius: 0;
+		-o-border-radius: 0;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.filter-btn > li > button {
+		padding: 7px 16px;
+	}
+}
+.justify-items-center {
+	justify-items: center;
+}
+.Price-Seperator {
+	color: var(--color-theme);
+}
+.featured-products {
+	margin-top: calc(var(--spacing) * 5);
+}
