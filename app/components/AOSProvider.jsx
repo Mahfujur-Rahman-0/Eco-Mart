@@ -7,10 +7,11 @@ import "aos/dist/aos.css";
 export default function AOSProvider({ children }) {
 	useEffect(() => {
 		AOS.init({
-			duration: 1000,
-			offset: 300,
+			offset: 400,
+			//duration: 1000,
 			once: false,
 		});
+		AOS.refresh();
 	}, []);
 
 	return <>{children}</>;

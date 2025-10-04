@@ -75,6 +75,7 @@ export default function Footer() {
 								className="single-footer-widget"
 								data-aos="fade-up"
 								data-aos-delay="200"
+								data-aos-offset="200"
 							>
 								<div className="widget-head">
 									<a href="/">
@@ -110,6 +111,7 @@ export default function Footer() {
 								className="lg:pl-[3rem]"
 								data-aos="fade-up"
 								data-aos-delay="400"
+								data-aos-offset="200"
 							>
 								<div className="single-footer-widget">
 									<div className="widget-head">
@@ -147,6 +149,7 @@ export default function Footer() {
 								className="lg:pl-[3rem]"
 								data-aos="fade-up"
 								data-aos-delay="600"
+								data-aos-offset="200"
 							>
 								<div className="single-footer-widget">
 									<div className="widget-head">
@@ -184,6 +187,7 @@ export default function Footer() {
 								className="single-footer-widget"
 								data-aos="fade-up"
 								data-aos-delay="800"
+								data-aos-offset="200"
 							>
 								<div className="widget-head">
 									<h3 className="style1">Newsletter</h3>
