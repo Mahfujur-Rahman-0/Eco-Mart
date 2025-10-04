@@ -1,1047 +1,1047 @@
-export default function ShopDetailsTwo(){
-    return (
-        <!DOCTYPE html>
-<html lang="en">
-   
-<!-- Mirrored from ecomartstw.baseecom.com/main-files/shop-details-two.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Aug 2025 03:49:21 GMT -->
-<head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="assets/css/vendor/all.min.css" />
-      <link
-         rel="shortcut icon"
-         href="assets/images/logo/icon.png"
-         type="image/x-icon"
-      />
+// export default function ShopDetailsTwo(){
+//     return (
+//         <!DOCTYPE html>
+// <html lang="en">
 
-      <link rel="stylesheet" href="assets/css/main.css" />
-      <title></title>
-   </head>
-   <body>
-      <!-- header start: header append programmatically -->
-      <header class="w-full" id="header"></header>
-      <!-- header ended -->
+// <!-- Mirrored from ecomartstw.baseecom.com/main-files/shop-details-two.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Aug 2025 03:49:21 GMT -->
+// <head>
+//       <meta charset="UTF-8" />
+//       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+//       <link rel="stylesheet" href="assets/css/vendor/all.min.css" />
+//       <link
+//          rel="shortcut icon"
+//          href="assets/images/logo/icon.png"
+//          type="image/x-icon"
+//       />
 
-      <!-- breadcrumb started -->
-      <div class="breadcumb-section">
-         <div
-            class="breadcumb-container-wrapper bg-cover bg-center bg-no-repeat"
-            style="background-image: url(assets/images/shape/breadcumb-bg.png)"
-         >
-            <div class="shape1">
-               <img
-                  loading="lazy"
-                  src="assets/images/shape/breadcumb-shape1_1.png"
-                  alt="shape"
-               />
-            </div>
-            <div class="shape2">
-               <img
-                  loading="lazy"
-                  src="assets/images/shape/breadcumb-shape1_2.png"
-                  alt="shape"
-               />
-            </div>
-            <div class="shape3">
-               <img
-                  loading="lazy"
-                  src="assets/images/shape/breadcumb-shape1_3.png"
-                  alt="shape"
-               />
-            </div>
-            <div class="shape4">
-               <img
-                  loading="lazy"
-                  src="assets/images/shape/breadcumb-shape1_4.png"
-                  alt="shape"
-               />
-            </div>
-            <div class="container">
-               <ul class="breadcumb-wrapper">
-                  <li>
-                     <a href="index.html"
-                        ><i class="fa-sharp fa-light fa-house"></i
-                     ></a>
-                  </li>
-                  <li><i class="fa-solid fa-chevron-right"></i></li>
-                  <li>Category</li>
-                  <li><i class="fa-solid fa-chevron-right"></i></li>
-                  <li>Shop Details Two</li>
-               </ul>
-            </div>
-         </div>
-      </div>
-      <!-- breadcrumb ended -->
+//       <link rel="stylesheet" href="assets/css/main.css" />
+//       <title></title>
+//    </head>
+//    <body>
+//       <!-- header start: header append programmatically -->
+//       <header class="w-full" id="header"></header>
+//       <!-- header ended -->
 
-      <!-- shop details two started -->
-      <div class="shop-details-section section-padding fix">
-         <div class="shop-details style2 bg-white">
-            <div class="container">
-               <div class="grid lg:grid-cols-2 gap-y-12 gap-x-[60px]">
-                  <div class="product-big-img bg-color2">
-                     <img
-                        loading="lazy"
-                        src="assets/images/shop/shop-details-thumb2.png"
-                        alt="thumb"
-                     />
-                  </div>
-                  <div class="product-about">
-                     <h2 class="product-title">High-Neck puff jacket</h2>
-                     <div class="rating">
-                        <h6>Brands: Design Hub</h6>
-                        <ul class="star">
-                           <li><i class="fa-solid fa-star"></i></li>
-                           <li><i class="fa-solid fa-star"></i></li>
-                           <li><i class="fa-solid fa-star"></i></li>
-                           <li><i class="fa-solid fa-star"></i></li>
-                           <li><i class="fa-solid fa-star"></i></li>
-                        </ul>
-                        <h6>(2 customer reviews)</h6>
-                        <h6 class="color-text">In Stock</h6>
-                     </div>
-                     <h6 class="product-price">$199.00</h6>
-                     <div class="actions">
-                        <div class="quantity">
-                           <div class="qty-wrapper">
-                              <button
-                                 class="quantity-plus qty-btn"
-                                 type="button"
-                              >
-                                 <i class="fa-solid fa-plus"></i>
-                              </button>
-                              <input
-                                 type="number"
-                                 class="qty-input"
-                                 step="1"
-                                 min="1"
-                                 max="100"
-                                 name="quantity"
-                                 value="1"
-                                 title="Qty"
-                              />
-                              <button
-                                 class="quantity-minus qty-btn"
-                                 type="button"
-                              >
-                                 <i class="fa-solid fa-minus"></i>
-                              </button>
-                           </div>
-                        </div>
+//       <!-- breadcrumb started -->
+//       <div class="breadcumb-section">
+//          <div
+//             class="breadcumb-container-wrapper bg-cover bg-center bg-no-repeat"
+//             style="background-image: url(assets/images/shape/breadcumb-bg.png)"
+//          >
+//             <div class="shape1">
+//                <img
+//                   loading="lazy"
+//                   src="assets/images/shape/breadcumb-shape1_1.png"
+//                   alt="shape"
+//                />
+//             </div>
+//             <div class="shape2">
+//                <img
+//                   loading="lazy"
+//                   src="assets/images/shape/breadcumb-shape1_2.png"
+//                   alt="shape"
+//                />
+//             </div>
+//             <div class="shape3">
+//                <img
+//                   loading="lazy"
+//                   src="assets/images/shape/breadcumb-shape1_3.png"
+//                   alt="shape"
+//                />
+//             </div>
+//             <div class="shape4">
+//                <img
+//                   loading="lazy"
+//                   src="assets/images/shape/breadcumb-shape1_4.png"
+//                   alt="shape"
+//                />
+//             </div>
+//             <div class="container">
+//                <ul class="breadcumb-wrapper">
+//                   <li>
+//                      <a href="index.html"
+//                         ><i class="fa-sharp fa-light fa-house"></i
+//                      ></a>
+//                   </li>
+//                   <li><i class="fa-solid fa-chevron-right"></i></li>
+//                   <li>Category</li>
+//                   <li><i class="fa-solid fa-chevron-right"></i></li>
+//                   <li>Shop Details Two</li>
+//                </ul>
+//             </div>
+//          </div>
+//       </div>
+//       <!-- breadcrumb ended -->
 
-                        <div class="btn-wrapper">
-                           <a
-                              class="theme-btn style7 border-0"
-                              href="wishlist.html"
-                              >ADD TO WISHLIST<i
-                                 class="fa-sharp fa-solid fa-heart"
-                              ></i
-                           ></a>
-                        </div>
-                     </div>
+//       <!-- shop details two started -->
+//       <div class="shop-details-section section-padding fix">
+//          <div class="shop-details style2 bg-white">
+//             <div class="container">
+//                <div class="grid lg:grid-cols-2 gap-y-12 gap-x-[60px]">
+//                   <div class="product-big-img bg-color2">
+//                      <img
+//                         loading="lazy"
+//                         src="assets/images/shop/shop-details-thumb2.png"
+//                         alt="thumb"
+//                      />
+//                   </div>
+//                   <div class="product-about">
+//                      <h2 class="product-title">High-Neck puff jacket</h2>
+//                      <div class="rating">
+//                         <h6>Brands: Design Hub</h6>
+//                         <ul class="star">
+//                            <li><i class="fa-solid fa-star"></i></li>
+//                            <li><i class="fa-solid fa-star"></i></li>
+//                            <li><i class="fa-solid fa-star"></i></li>
+//                            <li><i class="fa-solid fa-star"></i></li>
+//                            <li><i class="fa-solid fa-star"></i></li>
+//                         </ul>
+//                         <h6>(2 customer reviews)</h6>
+//                         <h6 class="color-text">In Stock</h6>
+//                      </div>
+//                      <h6 class="product-price">$199.00</h6>
+//                      <div class="actions">
+//                         <div class="quantity">
+//                            <div class="qty-wrapper">
+//                               <button
+//                                  class="quantity-plus qty-btn"
+//                                  type="button"
+//                               >
+//                                  <i class="fa-solid fa-plus"></i>
+//                               </button>
+//                               <input
+//                                  type="number"
+//                                  class="qty-input"
+//                                  step="1"
+//                                  min="1"
+//                                  max="100"
+//                                  name="quantity"
+//                                  value="1"
+//                                  title="Qty"
+//                               />
+//                               <button
+//                                  class="quantity-minus qty-btn"
+//                                  type="button"
+//                               >
+//                                  <i class="fa-solid fa-minus"></i>
+//                               </button>
+//                            </div>
+//                         </div>
 
-                     <div class="more-actions">
-                        <div class="left">
-                           <a href="#"
-                              ><i
-                                 class="fa-sharp fa-regular fa-messages-question"
-                              ></i
-                              >Ask Question</a
-                           >
-                        </div>
-                        <div class="right">
-                           <a href="#"
-                              ><i class="fa-regular fa-heart"></i>Wishlist</a
-                           >
-                           <a href="#"
-                              ><i class="fa-solid fa-arrows-cross"></i
-                              >Compare</a
-                           >
-                        </div>
-                     </div>
+//                         <div class="btn-wrapper">
+//                            <a
+//                               class="theme-btn style7 border-0"
+//                               href="wishlist.html"
+//                               >ADD TO WISHLIST<i
+//                                  class="fa-sharp fa-solid fa-heart"
+//                               ></i
+//                            ></a>
+//                         </div>
+//                      </div>
 
-                     <div class="credit-cards">
-                        <h6>Guarantee Safe & Secure Checkout</h6>
-                        <div class="card-logo">
-                           <a href="#"
-                              ><img
-                                 loading="lazy"
-                                 src="assets/images/shop/visa-logo.png"
-                                 alt="logo"
-                           /></a>
-                           <a href="#"
-                              ><img
-                                 loading="lazy"
-                                 src="assets/images/shop/mastercard-logo.png"
-                                 alt="logo"
-                           /></a>
-                           <a href="#"
-                              ><img
-                                 loading="lazy"
-                                 src="assets/images/shop/payoneer-logo.png"
-                                 alt="logo"
-                           /></a>
-                           <a href="#"
-                              ><img
-                                 loading="lazy"
-                                 src="assets/images/shop/affirm-logo.png"
-                                 alt="logo"
-                           /></a>
-                        </div>
-                     </div>
+//                      <div class="more-actions">
+//                         <div class="left">
+//                            <a href="#"
+//                               ><i
+//                                  class="fa-sharp fa-regular fa-messages-question"
+//                               ></i
+//                               >Ask Question</a
+//                            >
+//                         </div>
+//                         <div class="right">
+//                            <a href="#"
+//                               ><i class="fa-regular fa-heart"></i>Wishlist</a
+//                            >
+//                            <a href="#"
+//                               ><i class="fa-solid fa-arrows-cross"></i
+//                               >Compare</a
+//                            >
+//                         </div>
+//                      </div>
 
-                     <div class="product-details-footer2">
-                        <div class="policy">
-                           <h6>Free delivery <span>Over $100</span></h6>
-                           <h6>30 Days Return <span>Period</span></h6>
-                        </div>
+//                      <div class="credit-cards">
+//                         <h6>Guarantee Safe & Secure Checkout</h6>
+//                         <div class="card-logo">
+//                            <a href="#"
+//                               ><img
+//                                  loading="lazy"
+//                                  src="assets/images/shop/visa-logo.png"
+//                                  alt="logo"
+//                            /></a>
+//                            <a href="#"
+//                               ><img
+//                                  loading="lazy"
+//                                  src="assets/images/shop/mastercard-logo.png"
+//                                  alt="logo"
+//                            /></a>
+//                            <a href="#"
+//                               ><img
+//                                  loading="lazy"
+//                                  src="assets/images/shop/payoneer-logo.png"
+//                                  alt="logo"
+//                            /></a>
+//                            <a href="#"
+//                               ><img
+//                                  loading="lazy"
+//                                  src="assets/images/shop/affirm-logo.png"
+//                                  alt="logo"
+//                            /></a>
+//                         </div>
+//                      </div>
 
-                        <div class="product-info">
-                           <h6>
-                              Categories: <span>High-Neck puff jacket</span>
-                           </h6>
-                           <h6>Tags: <span>Fashion , Women</span></h6>
-                           <h6>SKU: <span>oliva-9</span></h6>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="product-description">
-                  <h3>Item Description</h3>
-                  <div class="desc">
-                     <p>
-                        Phasellus eget fermentum mauris. Suspendisse nec
-                        dignissim nulla. Integer non quam commodo, scelerisque
-                        felis id, eleifend turpis. Phasellus in nulla quis erat
-                        tempor tristique eget vel purus. Nulla pharetra pharetra
-                        pharetra. Praesent varius eget justo ut lacinia.
-                        Phasellus pharetra, velit viverra lacinia consequat,
-                        ipsum odio mollis dolor, nec facilisis arcu arcu
-                        ultricies sapien. Quisque ut dapibus nunc. Vivamus sit
-                        amet efficitur velit. Phasellus eget fermentum mauris.
-                        Suspendisse nec dignissim nulla. Integer non quam
-                        commodo, scelerisque felis id, eleifend turpis.
-                        Phasellus in nulla quis erat tempor tristique eget vel
-                        purus. Nulla pharetra pharetra pharetra. Praesent varius
-                        eget justo ut lacinia. Phasellus pharetra, velit viverra
-                        lacinia consequat, ipsum odio mollis dolor, nec
-                        facilisis arcu arcu ultricies sapien. Quisque ut dapibus
-                        nunc. Vivamus sit amet efficitur velit.
-                     </p>
-                     <br />
-                     <p>
-                        Phasellus eget fermentum mauris. Suspendisse nec
-                        dignissim nulla. Integer non quam commodo, scelerisque
-                        felis id, eleifend turpis. Phasellus in nulla quis erat
-                        tempor tristique eget vel purus. Nulla pharetra pharetra
-                        pharetra. Praesent varius eget justo ut lacinia.
-                        Phasellus pharetra, velit viverra lacinia consequat,
-                        ipsum odio mollis dolor, nec facilisis arcu arcu
-                        ultricies sapien. Quisque ut dapibus nunc. Vivamus sit
-                        amet efficitur velit. Phasellus eget fermentum mauris.
-                        Suspendisse nec dignissim nulla. Integer non quam
-                        commodo, scelerisque felis id, eleifend turpis
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- shop details two ended -->
+//                      <div class="product-details-footer2">
+//                         <div class="policy">
+//                            <h6>Free delivery <span>Over $100</span></h6>
+//                            <h6>30 Days Return <span>Period</span></h6>
+//                         </div>
 
-      <!-- top rated products started -->
-      <section
-         class="beauty-care-product-section section-padding-100 bg-bg-4 overflow-hidden"
-      >
-         <div class="beauty-care-product-container-wrapper style4">
-            <div class="container">
-               <div class="grid md:grid-cols-2 gap-y-6 items-center mb-10">
-                  <div>
-                     <div class="section-title">
-                        <div class="subtitle style4">TOP BRAND</div>
-                        <h2 class="title">Beauty Care Products</h2>
-                     </div>
-                  </div>
-                  <div class="flex md:justify-end">
-                     <div class="btn-wrapper">
-                        <a
-                           class="theme-btn style10"
-                           href="shop-right-sidebar.html"
-                           >View All</a
-                        >
-                     </div>
-                  </div>
-               </div>
-               <div class="grid gap-6 xl:grid-cols-4 md:grid-cols-2">
-                  <div class="best-seller-product-items-two style-seller-3">
-                     <div class="icon-box2">
-                        <button>
-                           <i class="fa-regular fa-eye"></i>
-                        </button>
-                        <a href="wishlist.html"
-                           ><i class="fa-regular fa-heart"></i
-                        ></a>
-                        <a href="cart.html"
-                           ><i class="fa-light fa-bag-shopping"></i
-                        ></a>
-                     </div>
-                     <div class="best-seller-product-items-two__badge1">
-                        25% off
-                     </div>
-                     <div class="best-seller-product-items-two__thumb">
-                        <img
-                           loading="lazy"
-                           src="assets/images/homepage-4/beautyCareProductThumb4_1.png"
-                           alt="thumb"
-                        />
-                     </div>
-                     <div class="best-seller-product-items-two__content">
-                        <div class="best-seller-product-items-two__details">
-                           <p
-                              class="best-seller-product-items-two__details--subtitle"
-                           >
-                              FASHION BAG
-                           </p>
-                           <h6
-                              class="best-seller-product-items-two__details--title"
-                           >
-                              <a href="shop-details-one.html"
-                                 >Brightening Face Oil</a
-                              >
-                           </h6>
-                           <div
-                              class="best-seller-product-items-two__details--price"
-                           >
-                              <span class="offer-price">$79.00</span>
-                              <span class="original-price">$99.00</span>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="best-seller-product-items-two style-seller-3">
-                     <div class="icon-box2">
-                        <button>
-                           <i class="fa-regular fa-eye"></i>
-                        </button>
-                        <a href="wishlist.html"
-                           ><i class="fa-regular fa-heart"></i
-                        ></a>
-                        <a href="cart.html"
-                           ><i class="fa-light fa-bag-shopping"></i
-                        ></a>
-                     </div>
-                     <div class="best-seller-product-items-two__badge1">
-                        TRANDING
-                     </div>
-                     <div class="best-seller-product-items-two__thumb">
-                        <img
-                           loading="lazy"
-                           src="assets/images/homepage-4/beautyCareProductThumb4_2.png"
-                           alt="thumb"
-                        />
-                     </div>
-                     <div class="best-seller-product-items-two__content">
-                        <div class="best-seller-product-items-two__details">
-                           <p
-                              class="best-seller-product-items-two__details--subtitle"
-                           >
-                              FASHION BAG
-                           </p>
-                           <h6
-                              class="best-seller-product-items-two__details--title"
-                           >
-                              <a href="shop-details-one.html"
-                                 >Eternal Youth Serum</a
-                              >
-                           </h6>
-                           <div
-                              class="best-seller-product-items-two__details--price"
-                           >
-                              <span class="offer-price">$79.00</span>
-                              <span class="original-price">$99.00</span>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="best-seller-product-items-two style-seller-3">
-                     <div class="icon-box2">
-                        <button>
-                           <i class="fa-regular fa-eye"></i>
-                        </button>
-                        <a href="wishlist.html"
-                           ><i class="fa-regular fa-heart"></i
-                        ></a>
-                        <a href="cart.html"
-                           ><i class="fa-light fa-bag-shopping"></i
-                        ></a>
-                     </div>
-                     <div class="best-seller-product-items-two__badge1">
-                        NEW
-                     </div>
-                     <div class="best-seller-product-items-two__thumb">
-                        <img
-                           loading="lazy"
-                           src="assets/images/homepage-4/beautyCareProductThumb4_3.png"
-                           alt="thumb"
-                        />
-                     </div>
-                     <div class="best-seller-product-items-two__content">
-                        <div class="best-seller-product-items-two__details">
-                           <p
-                              class="best-seller-product-items-two__details--subtitle"
-                           >
-                              FASHION BAG
-                           </p>
-                           <h6
-                              class="best-seller-product-items-two__details--title"
-                           >
-                              <a href="shop-details-one.html"
-                                 >Elite Whitening Serum</a
-                              >
-                           </h6>
-                           <div
-                              class="best-seller-product-items-two__details--price"
-                           >
-                              <span class="offer-price">$79.00</span>
-                              <span class="original-price">$99.00</span>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="best-seller-product-items-two style-seller-3">
-                     <div class="icon-box2">
-                        <button>
-                           <i class="fa-regular fa-eye"></i>
-                        </button>
-                        <a href="wishlist.html"
-                           ><i class="fa-regular fa-heart"></i
-                        ></a>
-                        <a href="cart.html"
-                           ><i class="fa-light fa-bag-shopping"></i
-                        ></a>
-                     </div>
-                     <div class="best-seller-product-items-two__badge1">
-                        25% off
-                     </div>
-                     <div class="best-seller-product-items-two__thumb">
-                        <img
-                           loading="lazy"
-                           src="assets/images/homepage-4/beautyCareProductThumb4_4.png"
-                           alt="thumb"
-                        />
-                     </div>
-                     <div class="best-seller-product-items-two__content">
-                        <div class="best-seller-product-items-two__details">
-                           <p
-                              class="best-seller-product-items-two__details--subtitle"
-                           >
-                              FASHION BAG
-                           </p>
-                           <h6
-                              class="best-seller-product-items-two__details--title"
-                           >
-                              <a href="shop-details-one.html"
-                                 >Exclusive Body Lotion</a
-                              >
-                           </h6>
-                           <div
-                              class="best-seller-product-items-two__details--price"
-                           >
-                              <span class="offer-price">$79.00</span>
-                              <span class="original-price">$99.00</span>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- top rated products ended -->
+//                         <div class="product-info">
+//                            <h6>
+//                               Categories: <span>High-Neck puff jacket</span>
+//                            </h6>
+//                            <h6>Tags: <span>Fashion , Women</span></h6>
+//                            <h6>SKU: <span>oliva-9</span></h6>
+//                         </div>
+//                      </div>
+//                   </div>
+//                </div>
+//                <div class="product-description">
+//                   <h3>Item Description</h3>
+//                   <div class="desc">
+//                      <p>
+//                         Phasellus eget fermentum mauris. Suspendisse nec
+//                         dignissim nulla. Integer non quam commodo, scelerisque
+//                         felis id, eleifend turpis. Phasellus in nulla quis erat
+//                         tempor tristique eget vel purus. Nulla pharetra pharetra
+//                         pharetra. Praesent varius eget justo ut lacinia.
+//                         Phasellus pharetra, velit viverra lacinia consequat,
+//                         ipsum odio mollis dolor, nec facilisis arcu arcu
+//                         ultricies sapien. Quisque ut dapibus nunc. Vivamus sit
+//                         amet efficitur velit. Phasellus eget fermentum mauris.
+//                         Suspendisse nec dignissim nulla. Integer non quam
+//                         commodo, scelerisque felis id, eleifend turpis.
+//                         Phasellus in nulla quis erat tempor tristique eget vel
+//                         purus. Nulla pharetra pharetra pharetra. Praesent varius
+//                         eget justo ut lacinia. Phasellus pharetra, velit viverra
+//                         lacinia consequat, ipsum odio mollis dolor, nec
+//                         facilisis arcu arcu ultricies sapien. Quisque ut dapibus
+//                         nunc. Vivamus sit amet efficitur velit.
+//                      </p>
+//                      <br />
+//                      <p>
+//                         Phasellus eget fermentum mauris. Suspendisse nec
+//                         dignissim nulla. Integer non quam commodo, scelerisque
+//                         felis id, eleifend turpis. Phasellus in nulla quis erat
+//                         tempor tristique eget vel purus. Nulla pharetra pharetra
+//                         pharetra. Praesent varius eget justo ut lacinia.
+//                         Phasellus pharetra, velit viverra lacinia consequat,
+//                         ipsum odio mollis dolor, nec facilisis arcu arcu
+//                         ultricies sapien. Quisque ut dapibus nunc. Vivamus sit
+//                         amet efficitur velit. Phasellus eget fermentum mauris.
+//                         Suspendisse nec dignissim nulla. Integer non quam
+//                         commodo, scelerisque felis id, eleifend turpis
+//                      </p>
+//                   </div>
+//                </div>
+//             </div>
+//          </div>
+//       </div>
+//       <!-- shop details two ended -->
 
-      <!-- shop featured started -->
-      <section class="feature-section section-padding-70 overflow-hidden">
-         <div class="container">
-            <div class="grid gap-[48px] xl:grid-cols-4 md:grid-cols-2">
-               <div class="feature-box-item-three">
-                  <div class="feature-box-item-three__icon">
-                     <img
-                        loading="lazy"
-                        src="assets/icon/featureIcon4_1.svg"
-                        alt="icon"
-                     />
-                  </div>
-                  <div class="feature-box-item-three__content">
-                     <h6>High Quality</h6>
-                     <p class="feature-box-item-three__content--text">
-                        Crafted from top materials
-                     </p>
-                  </div>
-               </div>
-               <div class="feature-box-item-three">
-                  <div class="feature-box-item-three__icon">
-                     <img
-                        loading="lazy"
-                        src="assets/icon/featureIcon4_2.svg"
-                        alt="icon"
-                     />
-                  </div>
-                  <div class="feature-box-item-three__content">
-                     <h6>Warrany Protection</h6>
-                     <p class="feature-box-item-three__content--text">
-                        Over 2 years
-                     </p>
-                  </div>
-               </div>
-               <div class="feature-box-item-three">
-                  <div class="feature-box-item-three__icon">
-                     <img
-                        loading="lazy"
-                        src="assets/icon/featureIcon4_3.svg"
-                        alt="icon"
-                     />
-                  </div>
-                  <div class="feature-box-item-three__content">
-                     <h6>Free Shipping</h6>
-                     <p class="feature-box-item-three__content--text">
-                        Order over 150 $
-                     </p>
-                  </div>
-               </div>
-               <div class="feature-box-item-three">
-                  <div class="feature-box-item-three__icon">
-                     <img
-                        loading="lazy"
-                        src="assets/icon/featureIcon4_4.svg"
-                        alt="icon"
-                     />
-                  </div>
-                  <div class="feature-box-item-three__content">
-                     <h6>24 / 7 Support</h6>
-                     <p class="feature-box-item-three__content--text">
-                        Dedicated support
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- shop featured ended -->
+//       <!-- top rated products started -->
+//       <section
+//          class="beauty-care-product-section section-padding-100 bg-bg-4 overflow-hidden"
+//       >
+//          <div class="beauty-care-product-container-wrapper style4">
+//             <div class="container">
+//                <div class="grid md:grid-cols-2 gap-y-6 items-center mb-10">
+//                   <div>
+//                      <div class="section-title">
+//                         <div class="subtitle style4">TOP BRAND</div>
+//                         <h2 class="title">Beauty Care Products</h2>
+//                      </div>
+//                   </div>
+//                   <div class="flex md:justify-end">
+//                      <div class="btn-wrapper">
+//                         <a
+//                            class="theme-btn style10"
+//                            href="shop-right-sidebar.html"
+//                            >View All</a
+//                         >
+//                      </div>
+//                   </div>
+//                </div>
+//                <div class="grid gap-6 xl:grid-cols-4 md:grid-cols-2">
+//                   <div class="best-seller-product-items-two style-seller-3">
+//                      <div class="icon-box2">
+//                         <button>
+//                            <i class="fa-regular fa-eye"></i>
+//                         </button>
+//                         <a href="wishlist.html"
+//                            ><i class="fa-regular fa-heart"></i
+//                         ></a>
+//                         <a href="cart.html"
+//                            ><i class="fa-light fa-bag-shopping"></i
+//                         ></a>
+//                      </div>
+//                      <div class="best-seller-product-items-two__badge1">
+//                         25% off
+//                      </div>
+//                      <div class="best-seller-product-items-two__thumb">
+//                         <img
+//                            loading="lazy"
+//                            src="assets/images/homepage-4/beautyCareProductThumb4_1.png"
+//                            alt="thumb"
+//                         />
+//                      </div>
+//                      <div class="best-seller-product-items-two__content">
+//                         <div class="best-seller-product-items-two__details">
+//                            <p
+//                               class="best-seller-product-items-two__details--subtitle"
+//                            >
+//                               FASHION BAG
+//                            </p>
+//                            <h6
+//                               class="best-seller-product-items-two__details--title"
+//                            >
+//                               <a href="shop-details-one.html"
+//                                  >Brightening Face Oil</a
+//                               >
+//                            </h6>
+//                            <div
+//                               class="best-seller-product-items-two__details--price"
+//                            >
+//                               <span class="offer-price">$79.00</span>
+//                               <span class="original-price">$99.00</span>
+//                            </div>
+//                         </div>
+//                      </div>
+//                   </div>
+//                   <div class="best-seller-product-items-two style-seller-3">
+//                      <div class="icon-box2">
+//                         <button>
+//                            <i class="fa-regular fa-eye"></i>
+//                         </button>
+//                         <a href="wishlist.html"
+//                            ><i class="fa-regular fa-heart"></i
+//                         ></a>
+//                         <a href="cart.html"
+//                            ><i class="fa-light fa-bag-shopping"></i
+//                         ></a>
+//                      </div>
+//                      <div class="best-seller-product-items-two__badge1">
+//                         TRANDING
+//                      </div>
+//                      <div class="best-seller-product-items-two__thumb">
+//                         <img
+//                            loading="lazy"
+//                            src="assets/images/homepage-4/beautyCareProductThumb4_2.png"
+//                            alt="thumb"
+//                         />
+//                      </div>
+//                      <div class="best-seller-product-items-two__content">
+//                         <div class="best-seller-product-items-two__details">
+//                            <p
+//                               class="best-seller-product-items-two__details--subtitle"
+//                            >
+//                               FASHION BAG
+//                            </p>
+//                            <h6
+//                               class="best-seller-product-items-two__details--title"
+//                            >
+//                               <a href="shop-details-one.html"
+//                                  >Eternal Youth Serum</a
+//                               >
+//                            </h6>
+//                            <div
+//                               class="best-seller-product-items-two__details--price"
+//                            >
+//                               <span class="offer-price">$79.00</span>
+//                               <span class="original-price">$99.00</span>
+//                            </div>
+//                         </div>
+//                      </div>
+//                   </div>
+//                   <div class="best-seller-product-items-two style-seller-3">
+//                      <div class="icon-box2">
+//                         <button>
+//                            <i class="fa-regular fa-eye"></i>
+//                         </button>
+//                         <a href="wishlist.html"
+//                            ><i class="fa-regular fa-heart"></i
+//                         ></a>
+//                         <a href="cart.html"
+//                            ><i class="fa-light fa-bag-shopping"></i
+//                         ></a>
+//                      </div>
+//                      <div class="best-seller-product-items-two__badge1">
+//                         NEW
+//                      </div>
+//                      <div class="best-seller-product-items-two__thumb">
+//                         <img
+//                            loading="lazy"
+//                            src="assets/images/homepage-4/beautyCareProductThumb4_3.png"
+//                            alt="thumb"
+//                         />
+//                      </div>
+//                      <div class="best-seller-product-items-two__content">
+//                         <div class="best-seller-product-items-two__details">
+//                            <p
+//                               class="best-seller-product-items-two__details--subtitle"
+//                            >
+//                               FASHION BAG
+//                            </p>
+//                            <h6
+//                               class="best-seller-product-items-two__details--title"
+//                            >
+//                               <a href="shop-details-one.html"
+//                                  >Elite Whitening Serum</a
+//                               >
+//                            </h6>
+//                            <div
+//                               class="best-seller-product-items-two__details--price"
+//                            >
+//                               <span class="offer-price">$79.00</span>
+//                               <span class="original-price">$99.00</span>
+//                            </div>
+//                         </div>
+//                      </div>
+//                   </div>
+//                   <div class="best-seller-product-items-two style-seller-3">
+//                      <div class="icon-box2">
+//                         <button>
+//                            <i class="fa-regular fa-eye"></i>
+//                         </button>
+//                         <a href="wishlist.html"
+//                            ><i class="fa-regular fa-heart"></i
+//                         ></a>
+//                         <a href="cart.html"
+//                            ><i class="fa-light fa-bag-shopping"></i
+//                         ></a>
+//                      </div>
+//                      <div class="best-seller-product-items-two__badge1">
+//                         25% off
+//                      </div>
+//                      <div class="best-seller-product-items-two__thumb">
+//                         <img
+//                            loading="lazy"
+//                            src="assets/images/homepage-4/beautyCareProductThumb4_4.png"
+//                            alt="thumb"
+//                         />
+//                      </div>
+//                      <div class="best-seller-product-items-two__content">
+//                         <div class="best-seller-product-items-two__details">
+//                            <p
+//                               class="best-seller-product-items-two__details--subtitle"
+//                            >
+//                               FASHION BAG
+//                            </p>
+//                            <h6
+//                               class="best-seller-product-items-two__details--title"
+//                            >
+//                               <a href="shop-details-one.html"
+//                                  >Exclusive Body Lotion</a
+//                               >
+//                            </h6>
+//                            <div
+//                               class="best-seller-product-items-two__details--price"
+//                            >
+//                               <span class="offer-price">$79.00</span>
+//                               <span class="original-price">$99.00</span>
+//                            </div>
+//                         </div>
+//                      </div>
+//                   </div>
+//                </div>
+//             </div>
+//          </div>
+//       </section>
+//       <!-- top rated products ended -->
 
-      <!-- partials started -->
-      <!-- search modal -->
-      <div
-         id="search-modal"
-         class="fixed inset-0 items-center justify-center bg-white/25 backdrop-blur-xs hidden z-99999"
-      >
-         <div class="w-full h-full relative">
-            <div
-               class="bg-transparent max-w-2/3 mx-auto my-auto flex items-center justify-center h-full"
-            >
-               <input
-                  type="text"
-                  class="w-full form-input border-0 border-b-2 border-b-theme-1 focus:border-b-theme-1 focus:ring-0 focus:shadow-none text-lg md:text-2xl lg:text-3xl font-semibold text-center placeholder:text-theme-1 text-theme-1"
-                  placeholder="Search..."
-               />
-            </div>
+//       <!-- shop featured started -->
+//       <section class="feature-section section-padding-70 overflow-hidden">
+//          <div class="container">
+//             <div class="grid gap-[48px] xl:grid-cols-4 md:grid-cols-2">
+//                <div class="feature-box-item-three">
+//                   <div class="feature-box-item-three__icon">
+//                      <img
+//                         loading="lazy"
+//                         src="assets/icon/featureIcon4_1.svg"
+//                         alt="icon"
+//                      />
+//                   </div>
+//                   <div class="feature-box-item-three__content">
+//                      <h6>High Quality</h6>
+//                      <p class="feature-box-item-three__content--text">
+//                         Crafted from top materials
+//                      </p>
+//                   </div>
+//                </div>
+//                <div class="feature-box-item-three">
+//                   <div class="feature-box-item-three__icon">
+//                      <img
+//                         loading="lazy"
+//                         src="assets/icon/featureIcon4_2.svg"
+//                         alt="icon"
+//                      />
+//                   </div>
+//                   <div class="feature-box-item-three__content">
+//                      <h6>Warrany Protection</h6>
+//                      <p class="feature-box-item-three__content--text">
+//                         Over 2 years
+//                      </p>
+//                   </div>
+//                </div>
+//                <div class="feature-box-item-three">
+//                   <div class="feature-box-item-three__icon">
+//                      <img
+//                         loading="lazy"
+//                         src="assets/icon/featureIcon4_3.svg"
+//                         alt="icon"
+//                      />
+//                   </div>
+//                   <div class="feature-box-item-three__content">
+//                      <h6>Free Shipping</h6>
+//                      <p class="feature-box-item-three__content--text">
+//                         Order over 150 $
+//                      </p>
+//                   </div>
+//                </div>
+//                <div class="feature-box-item-three">
+//                   <div class="feature-box-item-three__icon">
+//                      <img
+//                         loading="lazy"
+//                         src="assets/icon/featureIcon4_4.svg"
+//                         alt="icon"
+//                      />
+//                   </div>
+//                   <div class="feature-box-item-three__content">
+//                      <h6>24 / 7 Support</h6>
+//                      <p class="feature-box-item-three__content--text">
+//                         Dedicated support
+//                      </p>
+//                   </div>
+//                </div>
+//             </div>
+//          </div>
+//       </section>
+//       <!-- shop featured ended -->
 
-            <div class="absolute top-5 right-5">
-               <button
-                  id="close-search-modal"
-                  class="text-theme-1 flex items-center justify-center cursor-pointer size-12 rounded-full border border-theme"
-               >
-                  <i class="fa-solid fa-xmark text-2xl"></i>
-               </button>
-            </div>
-         </div>
-      </div>
+//       <!-- partials started -->
+//       <!-- search modal -->
+//       <div
+//          id="search-modal"
+//          class="fixed inset-0 items-center justify-center bg-white/25 backdrop-blur-xs hidden z-99999"
+//       >
+//          <div class="w-full h-full relative">
+//             <div
+//                class="bg-transparent max-w-2/3 mx-auto my-auto flex items-center justify-center h-full"
+//             >
+//                <input
+//                   type="text"
+//                   class="w-full form-input border-0 border-b-2 border-b-theme-1 focus:border-b-theme-1 focus:ring-0 focus:shadow-none text-lg md:text-2xl lg:text-3xl font-semibold text-center placeholder:text-theme-1 text-theme-1"
+//                   placeholder="Search..."
+//                />
+//             </div>
 
-      <!-- Cart Drawer -->
-      <div
-         id="cart-drawer"
-         class="fixed inset-y-0 right-0 w-80 bg-white shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out z-50"
-         aria-hidden="true"
-      >
-         <!-- Cart Drawer Content -->
-         <div class="p-6 h-full flex flex-col">
-            <!-- Close Button -->
-            <button
-               id="cart-closeDrawer"
-               aria-label="Close cart drawer"
-               class="self-end p-3 rounded text-theme-1 focus:outline-none focus:ring-2 focus:ring-red-400 cursor-pointer"
-            >
-               <i class="fa-solid fa-xmark text-xl"></i>
-            </button>
-            <!-- Cart Drawer Body -->
-            <h2 class="text-xl font-semibold text-theme-1 mt-4 mb-4">
-               Your Cart
-            </h2>
-            <p class="text-gray-600 mb-4">
-               Your shopping cart is empty right now.
-            </p>
-            <!-- Sample Cart Items -->
-            <ul class="space-y-4 mb-6">
-               <li class="flex justify-between border-b pb-2">
-                  <span>Product 1</span>
-                  <span>$19.99</span>
-               </li>
-               <li class="flex justify-between border-b pb-2">
-                  <span>Product 2</span>
-                  <span>$29.99</span>
-               </li>
-            </ul>
-            <!-- Checkout Button -->
-            <a
-               href="checkout.html"
-               class="mt-auto px-4 py-2 bg-theme-1 text-white rounded hover:bg-theme-1/90 focus:outline-none focus:ring-2 focus:ring-green-400 inline-block text-center"
-            >
-               Checkout
-            </a>
-         </div>
-      </div>
+//             <div class="absolute top-5 right-5">
+//                <button
+//                   id="close-search-modal"
+//                   class="text-theme-1 flex items-center justify-center cursor-pointer size-12 rounded-full border border-theme"
+//                >
+//                   <i class="fa-solid fa-xmark text-2xl"></i>
+//                </button>
+//             </div>
+//          </div>
+//       </div>
 
-      <div
-         id="cart-drawerBackdrop"
-         class="fixed inset-0 bg-black/50 transition-opacity duration-300 ease-in-out hidden z-40"
-      ></div>
+//       <!-- Cart Drawer -->
+//       <div
+//          id="cart-drawer"
+//          class="fixed inset-y-0 right-0 w-80 bg-white shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out z-50"
+//          aria-hidden="true"
+//       >
+//          <!-- Cart Drawer Content -->
+//          <div class="p-6 h-full flex flex-col">
+//             <!-- Close Button -->
+//             <button
+//                id="cart-closeDrawer"
+//                aria-label="Close cart drawer"
+//                class="self-end p-3 rounded text-theme-1 focus:outline-none focus:ring-2 focus:ring-red-400 cursor-pointer"
+//             >
+//                <i class="fa-solid fa-xmark text-xl"></i>
+//             </button>
+//             <!-- Cart Drawer Body -->
+//             <h2 class="text-xl font-semibold text-theme-1 mt-4 mb-4">
+//                Your Cart
+//             </h2>
+//             <p class="text-gray-600 mb-4">
+//                Your shopping cart is empty right now.
+//             </p>
+//             <!-- Sample Cart Items -->
+//             <ul class="space-y-4 mb-6">
+//                <li class="flex justify-between border-b pb-2">
+//                   <span>Product 1</span>
+//                   <span>$19.99</span>
+//                </li>
+//                <li class="flex justify-between border-b pb-2">
+//                   <span>Product 2</span>
+//                   <span>$29.99</span>
+//                </li>
+//             </ul>
+//             <!-- Checkout Button -->
+//             <a
+//                href="checkout.html"
+//                class="mt-auto px-4 py-2 bg-theme-1 text-white rounded hover:bg-theme-1/90 focus:outline-none focus:ring-2 focus:ring-green-400 inline-block text-center"
+//             >
+//                Checkout
+//             </a>
+//          </div>
+//       </div>
 
-      <!-- Drawer (Mobile Menu) -->
-      <div
-         id="menu-drawer"
-         class="fixed inset-y-0 right-0 w-[400px] bg-title border-l-2 border-l-theme shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out z-50"
-         aria-hidden="true"
-      >
-         <div class="p-4 h-full flex flex-col">
-            <button
-               id="menu-closeDrawer"
-               aria-label="Close menu drawer"
-               class="self-end p-2 rounded-md text-theme hover:text-theme-1 focus:outline-none cursor-pointer"
-            >
-               <i class="fas fa-times text-xl"></i>
-            </button>
+//       <div
+//          id="cart-drawerBackdrop"
+//          class="fixed inset-0 bg-black/50 transition-opacity duration-300 ease-in-out hidden z-40"
+//       ></div>
 
-            <p class="py-5 text-white md:hidden">
-               Nullam dignissim, ante scelerisque the is euismod fermentum odio
-               sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean
-               a imperdiet risus. a feugiat leo urna eget eros. Duis Aenean a
-               imperdiet risus.
-            </p>
+//       <!-- Drawer (Mobile Menu) -->
+//       <div
+//          id="menu-drawer"
+//          class="fixed inset-y-0 right-0 w-[400px] bg-title border-l-2 border-l-theme shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out z-50"
+//          aria-hidden="true"
+//       >
+//          <div class="p-4 h-full flex flex-col">
+//             <button
+//                id="menu-closeDrawer"
+//                aria-label="Close menu drawer"
+//                class="self-end p-2 rounded-md text-theme hover:text-theme-1 focus:outline-none cursor-pointer"
+//             >
+//                <i class="fas fa-times text-xl"></i>
+//             </button>
 
-            <ul class="mt-4 space-y-2.5 xl:hidden">
-               <li class="relative">
-                  <button
-                     class="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none"
-                     aria-expanded="false"
-                     aria-controls="homes-submenu"
-                  >
-                     Homes
-                     <i
-                        class="fas fa-chevron-down text-sm transform transition-transform duration-300"
-                        id="homes-icon"
-                     ></i>
-                  </button>
-                  <!-- Submenu for Homes (Accordion) -->
-                  <ul
-                     id="homes-submenu"
-                     class="pl-4 mt-2 space-y-2 overflow-hidden max-h-0 transition-all duration-300 ease-in-out"
-                  >
-                     <li>
-                        <a
-                           href="index.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Home 1</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="index-2.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Home 2</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="index-3.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Home 3</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="index-5.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Home 4</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="index-6.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Home 5</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="index-7.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Home 6</a
-                        >
-                     </li>
-                     <li>
-                        !
-                        <a
-                           href="index-8.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Home 7</a
-                        >
-                     </li>
-                  </ul>
-               </li>
-               <li class="relative">
-                  <button
-                     class="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none"
-                     aria-expanded="false"
-                     aria-controls="shop-submenu"
-                  >
-                     Shop
-                     <i
-                        class="fas fa-chevron-down text-sm transform transition-transform duration-300"
-                        id="shop-icon"
-                     ></i>
-                  </button>
-                  <ul
-                     id="shop-submenu"
-                     class="pl-4 mt-2 space-y-2 overflow-hidden max-h-0 transition-all duration-300 ease-in-out"
-                  >
-                     <li>
-                        <a
-                           href="shop-left-sidebar.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Shop Left Sidebar</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="shop-right-sidebar.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Shop Right Sidebar</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="shop-without-sidebar.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Shop Without Sidebar</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="shop-details-one.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Shop Details One</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="shop-details-two.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Shop Details Two</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="cart.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Cart</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="wishlist.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Wishlist</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="checkout.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Checkout</a
-                        >
-                     </li>
-                  </ul>
-               </li>
-               <li class="relative">
-                  <button
-                     class="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none"
-                     aria-expanded="false"
-                     aria-controls="pages-submenu"
-                  >
-                     Pages
-                     <i
-                        class="fas fa-chevron-down text-sm transform transition-transform duration-300"
-                        id="pages-icon"
-                     ></i>
-                  </button>
-                  <ul
-                     id="pages-submenu"
-                     class="pl-4 mt-2 space-y-2 overflow-hidden max-h-0 transition-all duration-300 ease-in-out"
-                  >
-                     <li>
-                        <a
-                           href="about-us.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >About Us</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="testimonials.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Testimonials</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="faqs.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >FAQs</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="look-book.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Look Book</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="login.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Login</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="register.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Register</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="dashboard.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Dashboard</a
-                        >
-                     </li>
-                  </ul>
-               </li>
-               <li class="relative">
-                  <button
-                     class="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none"
-                     aria-expanded="false"
-                     aria-controls="order-submenu"
-                  >
-                     Order
-                     <i
-                        class="fas fa-chevron-down text-sm transform transition-transform duration-300"
-                        id="order-icon"
-                     ></i>
-                  </button>
-                  <ul
-                     id="order-submenu"
-                     class="pl-4 mt-2 space-y-2 overflow-hidden max-h-0 transition-all duration-300 ease-in-out"
-                  >
-                     <li>
-                        <a
-                           href="order-tracking.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Order Tracking</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="order-history.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Order History</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="settings.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Settings</a
-                        >
-                     </li>
-                  </ul>
-               </li>
-               <li class="relative">
-                  <button
-                     class="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none"
-                     aria-expanded="false"
-                     aria-controls="blogs-submenu"
-                  >
-                     Blogs
-                     <i
-                        class="fas fa-chevron-down text-sm transform transition-transform duration-300"
-                        id="blogs-icon"
-                     ></i>
-                  </button>
-                  <ul
-                     id="blogs-submenu"
-                     class="pl-4 mt-2 space-y-2 overflow-hidden max-h-0 transition-all duration-300 ease-in-out"
-                  >
-                     <li>
-                        <a
-                           href="blogs.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Blogs</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="blogs-classic.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Blogs Classic</a
-                        >
-                     </li>
-                     <li>
-                        <a
-                           href="blog-details.html"
-                           class="!text-white hover:!text-theme text-sm px-4 py-2 block"
-                           >Blog Details</a
-                        >
-                     </li>
-                  </ul>
-               </li>
-               <li class="relative">
-                  <a
-                     href="contact.html"
-                     class="!text-white hover:!text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none"
-                  >
-                     Contact
-                  </a>
-               </li>
-            </ul>
+//             <p class="py-5 text-white md:hidden">
+//                Nullam dignissim, ante scelerisque the is euismod fermentum odio
+//                sem semper the is erat, a feugiat leo urna eget eros. Duis Aenean
+//                a imperdiet risus. a feugiat leo urna eget eros. Duis Aenean a
+//                imperdiet risus.
+//             </p>
 
-            <!-- responsive categories -->
-            <div class="header-cataegory-item md:hidden my-5">
-               <ul class="header-cataegory">
-                  <li>
-                     <a
-                        href="#"
-                        class="!text-white transition-colors hover:text-theme"
-                     >
-                        <span class="left-icon mr-2">
-                           <i class="fa-solid fa-grid-2"></i>
-                        </span>
-                        all categories
-                        <span class="right-icon ml-2"
-                           ><i class="fa-regular fa-chevron-down"></i
-                        ></span>
-                     </a>
-                  </li>
-               </ul>
-               <ul class="sub-cataegory">
-                  <li class="sub-has-dropdown">
-                     <a href="#"
-                        >All Laptop <i class="fas fa-angle-right"></i
-                     ></a>
-                     <ul class="sub-cataegory">
-                        <li>
-                           <a href="shop-without-sidebar.html">Lenovo</a>
-                        </li>
-                        <li><a href="shop-without-sidebar.html">MSI</a></li>
-                        <li><a href="shop-without-sidebar.html">Asus</a></li>
-                        <li><a href="shop-without-sidebar.html">HP</a></li>
-                        <li>
-                           <a href="shop-without-sidebar.html">MacBook</a>
-                        </li>
-                        <li>
-                           <a href="shop-without-sidebar.html">Smart</a>
-                        </li>
-                        <li>
-                           <a href="shop-without-sidebar.html">Walton</a>
-                        </li>
-                     </ul>
-                  </li>
-                  <li>
-                     <a href="shop-without-sidebar.html">Gadget</a>
-                  </li>
-                  <li>
-                     <a href="shop-without-sidebar.html">Phone</a>
-                  </li>
-                  <li>
-                     <a href="shop-without-sidebar.html">Digital Watch</a>
-                  </li>
-               </ul>
-            </div>
+//             <ul class="mt-4 space-y-2.5 xl:hidden">
+//                <li class="relative">
+//                   <button
+//                      class="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none"
+//                      aria-expanded="false"
+//                      aria-controls="homes-submenu"
+//                   >
+//                      Homes
+//                      <i
+//                         class="fas fa-chevron-down text-sm transform transition-transform duration-300"
+//                         id="homes-icon"
+//                      ></i>
+//                   </button>
+//                   <!-- Submenu for Homes (Accordion) -->
+//                   <ul
+//                      id="homes-submenu"
+//                      class="pl-4 mt-2 space-y-2 overflow-hidden max-h-0 transition-all duration-300 ease-in-out"
+//                   >
+//                      <li>
+//                         <a
+//                            href="index.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Home 1</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="index-2.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Home 2</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="index-3.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Home 3</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="index-5.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Home 4</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="index-6.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Home 5</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="index-7.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Home 6</a
+//                         >
+//                      </li>
+//                      <li>
+//                         !
+//                         <a
+//                            href="index-8.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Home 7</a
+//                         >
+//                      </li>
+//                   </ul>
+//                </li>
+//                <li class="relative">
+//                   <button
+//                      class="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none"
+//                      aria-expanded="false"
+//                      aria-controls="shop-submenu"
+//                   >
+//                      Shop
+//                      <i
+//                         class="fas fa-chevron-down text-sm transform transition-transform duration-300"
+//                         id="shop-icon"
+//                      ></i>
+//                   </button>
+//                   <ul
+//                      id="shop-submenu"
+//                      class="pl-4 mt-2 space-y-2 overflow-hidden max-h-0 transition-all duration-300 ease-in-out"
+//                   >
+//                      <li>
+//                         <a
+//                            href="shop-left-sidebar.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Shop Left Sidebar</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="shop-right-sidebar.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Shop Right Sidebar</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="shop-without-sidebar.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Shop Without Sidebar</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="shop-details-one.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Shop Details One</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="shop-details-two.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Shop Details Two</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="cart.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Cart</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="wishlist.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Wishlist</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="checkout.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Checkout</a
+//                         >
+//                      </li>
+//                   </ul>
+//                </li>
+//                <li class="relative">
+//                   <button
+//                      class="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none"
+//                      aria-expanded="false"
+//                      aria-controls="pages-submenu"
+//                   >
+//                      Pages
+//                      <i
+//                         class="fas fa-chevron-down text-sm transform transition-transform duration-300"
+//                         id="pages-icon"
+//                      ></i>
+//                   </button>
+//                   <ul
+//                      id="pages-submenu"
+//                      class="pl-4 mt-2 space-y-2 overflow-hidden max-h-0 transition-all duration-300 ease-in-out"
+//                   >
+//                      <li>
+//                         <a
+//                            href="about-us.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >About Us</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="testimonials.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Testimonials</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="faqs.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >FAQs</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="look-book.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Look Book</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="login.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Login</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="register.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Register</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="dashboard.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Dashboard</a
+//                         >
+//                      </li>
+//                   </ul>
+//                </li>
+//                <li class="relative">
+//                   <button
+//                      class="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none"
+//                      aria-expanded="false"
+//                      aria-controls="order-submenu"
+//                   >
+//                      Order
+//                      <i
+//                         class="fas fa-chevron-down text-sm transform transition-transform duration-300"
+//                         id="order-icon"
+//                      ></i>
+//                   </button>
+//                   <ul
+//                      id="order-submenu"
+//                      class="pl-4 mt-2 space-y-2 overflow-hidden max-h-0 transition-all duration-300 ease-in-out"
+//                   >
+//                      <li>
+//                         <a
+//                            href="order-tracking.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Order Tracking</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="order-history.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Order History</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="settings.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Settings</a
+//                         >
+//                      </li>
+//                   </ul>
+//                </li>
+//                <li class="relative">
+//                   <button
+//                      class="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none"
+//                      aria-expanded="false"
+//                      aria-controls="blogs-submenu"
+//                   >
+//                      Blogs
+//                      <i
+//                         class="fas fa-chevron-down text-sm transform transition-transform duration-300"
+//                         id="blogs-icon"
+//                      ></i>
+//                   </button>
+//                   <ul
+//                      id="blogs-submenu"
+//                      class="pl-4 mt-2 space-y-2 overflow-hidden max-h-0 transition-all duration-300 ease-in-out"
+//                   >
+//                      <li>
+//                         <a
+//                            href="blogs.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Blogs</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="blogs-classic.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Blogs Classic</a
+//                         >
+//                      </li>
+//                      <li>
+//                         <a
+//                            href="blog-details.html"
+//                            class="!text-white hover:!text-theme text-sm px-4 py-2 block"
+//                            >Blog Details</a
+//                         >
+//                      </li>
+//                   </ul>
+//                </li>
+//                <li class="relative">
+//                   <a
+//                      href="contact.html"
+//                      class="!text-white hover:!text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none"
+//                   >
+//                      Contact
+//                   </a>
+//                </li>
+//             </ul>
 
-            <div class="my-5">
-               <h4 class="!text-theme">Contact Info</h4>
+//             <!-- responsive categories -->
+//             <div class="header-cataegory-item md:hidden my-5">
+//                <ul class="header-cataegory">
+//                   <li>
+//                      <a
+//                         href="#"
+//                         class="!text-white transition-colors hover:text-theme"
+//                      >
+//                         <span class="left-icon mr-2">
+//                            <i class="fa-solid fa-grid-2"></i>
+//                         </span>
+//                         all categories
+//                         <span class="right-icon ml-2"
+//                            ><i class="fa-regular fa-chevron-down"></i
+//                         ></span>
+//                      </a>
+//                   </li>
+//                </ul>
+//                <ul class="sub-cataegory">
+//                   <li class="sub-has-dropdown">
+//                      <a href="#"
+//                         >All Laptop <i class="fas fa-angle-right"></i
+//                      ></a>
+//                      <ul class="sub-cataegory">
+//                         <li>
+//                            <a href="shop-without-sidebar.html">Lenovo</a>
+//                         </li>
+//                         <li><a href="shop-without-sidebar.html">MSI</a></li>
+//                         <li><a href="shop-without-sidebar.html">Asus</a></li>
+//                         <li><a href="shop-without-sidebar.html">HP</a></li>
+//                         <li>
+//                            <a href="shop-without-sidebar.html">MacBook</a>
+//                         </li>
+//                         <li>
+//                            <a href="shop-without-sidebar.html">Smart</a>
+//                         </li>
+//                         <li>
+//                            <a href="shop-without-sidebar.html">Walton</a>
+//                         </li>
+//                      </ul>
+//                   </li>
+//                   <li>
+//                      <a href="shop-without-sidebar.html">Gadget</a>
+//                   </li>
+//                   <li>
+//                      <a href="shop-without-sidebar.html">Phone</a>
+//                   </li>
+//                   <li>
+//                      <a href="shop-without-sidebar.html">Digital Watch</a>
+//                   </li>
+//                </ul>
+//             </div>
 
-               <ul
-                  class="text-white font-medium text-base *:flex *:items-center *:gap-x-3 space-y-3 mt-3.5"
-               >
-                  <li>
-                     <i class="fa-regular fa-location-dot text-theme"></i>
-                     <span>Main Street, Melbourne, Australia.</span>
-                  </li>
-                  <li>
-                     <i class="fa-regular fa-envelope text-theme"></i>
-                     <span>info@example.com</span>
-                  </li>
-                  <li>
-                     <i class="fa-regular fa-timer text-theme"></i>
-                     <span>Mon-Friday, 09am-05pm</span>
-                  </li>
-                  <li>
-                     <i class="fa-regular fa-phone text-theme"></i>
-                     <span>+880 1918 123 123</span>
-                  </li>
-               </ul>
-            </div>
+//             <div class="my-5">
+//                <h4 class="!text-theme">Contact Info</h4>
 
-            <div class="my-5 w-full">
-               <a href="#" class="theme-btn block w-full text-center"
-                  >Get A Quote <i class="fa-solid fa-arrow-right"></i
-               ></a>
-            </div>
+//                <ul
+//                   class="text-white font-medium text-base *:flex *:items-center *:gap-x-3 space-y-3 mt-3.5"
+//                >
+//                   <li>
+//                      <i class="fa-regular fa-location-dot text-theme"></i>
+//                      <span>Main Street, Melbourne, Australia.</span>
+//                   </li>
+//                   <li>
+//                      <i class="fa-regular fa-envelope text-theme"></i>
+//                      <span>info@example.com</span>
+//                   </li>
+//                   <li>
+//                      <i class="fa-regular fa-timer text-theme"></i>
+//                      <span>Mon-Friday, 09am-05pm</span>
+//                   </li>
+//                   <li>
+//                      <i class="fa-regular fa-phone text-theme"></i>
+//                      <span>+880 1918 123 123</span>
+//                   </li>
+//                </ul>
+//             </div>
 
-            <div class="my-5 w-full">
-               <ul class="responsive-social-icons">
-                  <li>
-                     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                  </li>
-                  <li>
-                     <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                  </li>
-                  <li>
-                     <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                  </li>
-                  <li>
-                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </div>
+//             <div class="my-5 w-full">
+//                <a href="#" class="theme-btn block w-full text-center"
+//                   >Get A Quote <i class="fa-solid fa-arrow-right"></i
+//                ></a>
+//             </div>
 
-      <!-- Drawer Backdrop -->
-      <div
-         id="menu-drawerBackdrop"
-         class="fixed inset-0 bg-black/50 bg-opacity-0 opacity-0 transition-opacity duration-300 ease-in-out hidden z-40"
-      ></div>
+//             <div class="my-5 w-full">
+//                <ul class="responsive-social-icons">
+//                   <li>
+//                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+//                   </li>
+//                   <li>
+//                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+//                   </li>
+//                   <li>
+//                      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+//                   </li>
+//                   <li>
+//                      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+//                   </li>
+//                </ul>
+//             </div>
+//          </div>
+//       </div>
 
-      <!-- script -->
-      <script src="assets/js/swiper-bundle.min.js"></script>
-      <script src="assets/js/aos.js"></script>
-      <script src="assets/js/index.js"></script>
-   </body>
+//       <!-- Drawer Backdrop -->
+//       <div
+//          id="menu-drawerBackdrop"
+//          class="fixed inset-0 bg-black/50 bg-opacity-0 opacity-0 transition-opacity duration-300 ease-in-out hidden z-40"
+//       ></div>
 
-<!-- Mirrored from ecomartstw.baseecom.com/main-files/shop-details-two.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Aug 2025 03:49:23 GMT -->
-</html>
+//       <!-- script -->
+//       <script src="assets/js/swiper-bundle.min.js"></script>
+//       <script src="assets/js/aos.js"></script>
+//       <script src="assets/js/index.js"></script>
+//    </body>
 
-    );
-}
+// <!-- Mirrored from ecomartstw.baseecom.com/main-files/shop-details-two.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Aug 2025 03:49:23 GMT -->
+// </html>
+
+//     );
+// }
