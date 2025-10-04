@@ -167,13 +167,13 @@ export default function Header() {
 												</div>
 											</div>
 											<div className="relative group">
-												<Link href="index.html">
+												<Link href="/pages/Fashion">
 													<Image src={HomeTwo} alt="EcomArts" />
 												</Link>
 
 												<div className="absolute inset-0 invisible opacity-0 translate-y-2.5 transition-all duration-400 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 flex items-center justify-center">
 													<Link
-														href="index-2.html"
+														href="/pages/Fashion"
 														className="!text-white px-5 py-3 bg-theme-1 rounded-lg"
 													>
 														Fashion
@@ -261,7 +261,7 @@ export default function Header() {
 									<div className="sub-menu-2">
 										<ul>
 											<li>
-												<Link href="shop-left-sidebar.html">
+												<Link href="/pages/shop-left-sidebar">
 													Shop Left Sidebar
 												</Link>
 											</li>

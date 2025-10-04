@@ -1,3 +1,9 @@
+import Image from "next/image";
+import affirmLogo from "../../public/assets/images/footer/affirm-logo.png";
+import payoneerLogo from "../../public/assets/images/footer/payoneer-logo.png";
+import mastercardLogo from "../../public/assets/images/footer/mastercard-logo.png";
+import visaLogo from "../../public/assets/images/footer/visa-logo.png";
+import whiteLogo from "../../public/assets/images/logo/white-logo.svg";
 export default function Footer() {
 	return (
 		<>
@@ -79,11 +85,7 @@ export default function Footer() {
 							>
 								<div className="widget-head">
 									<a href="/">
-										<img
-											loading="lazy"
-											src="assets/images/logo/white-logo.svg"
-											alt="logo-img"
-										/>
+										<Image loading="lazy" src={whiteLogo} alt="logo-img" />
 									</a>
 								</div>
 								<div className="footer-content">
@@ -221,38 +223,22 @@ export default function Footer() {
 							<ul className="credit-card-logo">
 								<li>
 									<a href="contact.html">
-										<img
-											loading="lazy"
-											src="assets/images/footer/visa-logo.png"
-											alt="img"
-										/>
+										<Image src={visaLogo} alt="img" />
 									</a>
 								</li>
 								<li>
 									<a href="contact.html">
-										<img
-											loading="lazy"
-											src="assets/images/footer/mastercard-logo.png"
-											alt="img"
-										/>
+										<Image src={mastercardLogo} alt="img" />
 									</a>
 								</li>
 								<li>
 									<a href="contact.html">
-										<img
-											loading="lazy"
-											src="assets/images/footer/payoneer-logo.png"
-											alt="img"
-										/>
+										<Image src={payoneerLogo} alt="img" />
 									</a>
 								</li>
 								<li>
 									<a href="contact.html">
-										<img
-											loading="lazy"
-											src="assets/images/footer/affirm-logo.png"
-											alt="img"
-										/>
+										<Image src={affirmLogo} alt="img" />
 									</a>
 								</li>
 							</ul>

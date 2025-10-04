@@ -1,7 +1,9 @@
 "use client";
-
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useAppContext } from "../context/AppContext";
+
+import commonModal from "../../public/assets/images/modal/common-modal.jpg";
 
 export default function Partials() {
 	const [newsletter, setNewsletter] = useState(false);
@@ -567,11 +569,7 @@ export default function Partials() {
 								<div className="grid gap-6 lg:grid-cols-12 items-center">
 									<div className="lg:col-span-5">
 										<div className="offer-modal-img hidden lg:block">
-											<img
-												loading="lazy"
-												src="assets/images/modal/common-modal.jpg"
-												alt="img"
-											/>
+											<Image src={commonModal} alt="img" />
 										</div>
 									</div>
 									<div className="lg:col-span-7">
