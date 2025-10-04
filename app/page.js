@@ -24,6 +24,7 @@ import Image from "next/image";
 import Partials from "./components/Partials";
 import SliderEngine from "./components/SliderEngine";
 import CategorieSlide from "./components/CategorieSlide";
+import TestimonialSlider from "./components/TestimonialSlider";
 
 export default function Home() {
 	const TopSliderimages = [introThumb1_1, introThumb1_2, introThumb1_3];
@@ -1463,68 +1464,75 @@ export default function Home() {
 					<h2 className="featured-products">Our Featured Products</h2>
 				</div>
 				<hr className="border-bg-6 my-7" />
-
-				<div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-2">
-					<div className="flex items-center flex-wrap gap-2.5">
+				<ul className="filter-btn flex items-center justify-center lg:justify-baseline flex-wrap gap-2.5">
+					<li>
 						<button
-							className="fp-1-filter-btns btn theme-button-outline btn-active"
-							data-fp1-btn="all"
+							className="btn theme-button-outline btn-active best-seller-1-btn"
+							data-sale-target="latest"
 						>
 							All
 						</button>
+					</li>
+					<li>
 						<button
-							className="fp-1-filter-btns btn theme-button-outline"
-							data-fp1-btn="oven"
+							className="btn theme-button-outline best-seller-1-btn"
+							data-sale-target="popular"
 						>
 							Oven
 						</button>
+					</li>
+					<li>
 						<button
-							className="fp-1-filter-btns btn theme-button-outline"
-							data-fp1-btn="computer"
+							className="btn theme-button-outline best-seller-1-btn"
+							data-sale-target="on-sale"
 						>
 							Computer
 						</button>
+					</li>
+					<li>
 						<button
-							className="fp-1-filter-btns btn theme-button-outline"
-							data-fp1-btn="watch"
+							className="btn theme-button-outline best-seller-1-btn"
+							data-sale-target="on-sale"
 						>
 							Watch
 						</button>
+					</li>
+					<li>
 						<button
-							className="fp-1-filter-btns btn theme-button-outline"
-							data-fp1-btn="camera"
+							className="btn theme-button-outline best-seller-1-btn"
+							data-sale-target="on-sale"
 						>
 							Camera
 						</button>
+					</li>
+					<li>
 						<button
-							className="fp-1-filter-btns btn theme-button-outline"
-							data-fp1-btn="drone"
+							className="btn theme-button-outline best-seller-1-btn"
+							data-sale-target="on-sale"
 						>
 							Drone
 						</button>
-					</div>
+					</li>
+					<select
+						className="focus:ring-theme focus:border-none rounded-full border-border-1 Price-Seperator"
+						defaultValue="Price"
+					>
+						<option value="">Price</option>
+						<option value="high">High to Low</option>
+						<option value="low">Low to High</option>
+					</select>
 
-					<div>
-						<select
-							name="brand name"
-							id="brand name"
-							className="rounded-full border-border-6 text-title focus:ring-theme-1"
-							defaultValue=""
-						>
-							<option value="" className="font-semibold">
-								Select Brand Name
-							</option>
-							<option value="apple">Apple</option>
-							<option value="dell">Dell</option>
-							<option value="lg">LG</option>
-							<option value="asus">Asus</option>
-						</select>
-					</div>
-				</div>
+					<a
+						className="btn View-All-btn theme-button-secondary"
+						href="shop-right-sidebar.html"
+					>
+						View All
+					</a>
+				</ul>
 
 				{/* <!-- All --> */}
 				<div
-					className="w-full grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[30px] mt-10 fp1-wrapper"
+					className="w-full xsm:grid-cols-2 justify-items-center  grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[30px] mt-10 fp1-wrapper"
 					data-fp1-wrapper="all"
 				>
 					<div className="featured-products-1 group">
@@ -1972,7 +1980,7 @@ export default function Home() {
 
 				{/* <!-- Oven --> */}
 				<div
-					className="w-full hidden md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[30px] mt-10 fp1-wrapper"
+					className="w-full xsm:grid-cols-2 justify-items-center  hidden md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[30px] mt-10 fp1-wrapper"
 					data-fp1-wrapper="oven"
 				>
 					<div className="featured-products-1 group">
@@ -2419,7 +2427,7 @@ export default function Home() {
 
 				{/* <!-- computer --> */}
 				<div
-					className="w-full hidden md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[30px] mt-10 fp1-wrapper"
+					className="w-full xsm:grid-cols-2 justify-items-center  hidden md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[30px] mt-10 fp1-wrapper"
 					data-fp1-wrapper="computer"
 				>
 					<div className="featured-products-1 group">
@@ -2867,7 +2875,7 @@ export default function Home() {
 
 				{/* <!-- watch --> */}
 				<div
-					className="w-full hidden md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[30px] mt-10 fp1-wrapper"
+					className="w-full xsm:grid-cols-2 justify-items-center  hidden md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[30px] mt-10 fp1-wrapper"
 					data-fp1-wrapper="watch"
 				>
 					<div className="featured-products-1 group">
@@ -3315,7 +3323,7 @@ export default function Home() {
 
 				{/* <!-- camera --> */}
 				<div
-					className="w-full hidden md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[30px] mt-10 fp1-wrapper"
+					className="xsm:grid-cols-2 justify-items-center  w-full hidden md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[30px] mt-10 fp1-wrapper"
 					data-fp1-wrapper="camera"
 				>
 					<div className="featured-products-1 group">
@@ -3763,7 +3771,7 @@ export default function Home() {
 
 				{/* <!-- drone --> */}
 				<div
-					className="w-full hidden md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[30px] mt-10 fp1-wrapper"
+					className="xsm:grid-cols-2 justify-items-center  w-full hidden md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-[30px] mt-10 fp1-wrapper"
 					data-fp1-wrapper="drone"
 				>
 					<div className="featured-products-1 group">
@@ -4612,188 +4620,7 @@ export default function Home() {
 						<div className="subtitle style1">Testimonial</div>
 						<h2 className="title">What our client say</h2>
 					</div>
-					<div className="swiper testimonial-slider-one">
-						<div className="swiper gt-slider" id="testimonialSliderOne">
-							<div className="swiper-wrapper">
-								<div className="swiper-slide">
-									<div className="testimonial-card-items-one">
-										<p>
-											One of the most powerful takeaways from this book is the
-											emphasis on adopting a mindset of abundance and
-											possibility. The idea that we can choose to see
-											opportunities rather than limitations is a game-changer.
-										</p>
-										<div className="client-info-wrapper d-flex align-items-center justify-content-between">
-											<div className="client-info">
-												<div
-													className="client-img bg-cover"
-													style={{
-														backgroundImage:
-															"url('assets/images/homepage-1/testimonialProfileThumb1_1.jpg')",
-													}}
-												>
-													<div className="icon">
-														<img
-															loading="lazy"
-															className="shape"
-															src="assets/images/shape/shape.svg"
-															alt="img"
-														/>
-													</div>
-												</div>
-												<div className="content">
-													<h3>Ronald Richards</h3>
-													<span>Marketing Coordinator</span>
-													<div className="star">
-														<i className="fa-solid fa-star"></i>
-														<i className="fa-solid fa-star"></i>
-														<i className="fa-solid fa-star"></i>
-														<i className="fa-regular fa-star"></i>
-														<i className="fa-regular fa-star"></i>
-													</div>
-												</div>
-											</div>
-											{/* <!-- <div className="logo">
-                                        <img loading="lazy" src="assets/img/homepage-1/logo1.png" alt="">
-                                    </div> --> */}
-										</div>
-									</div>
-								</div>
-								<div className="swiper-slide">
-									<div className="testimonial-card-items-one">
-										<p>
-											The idea that we can choose to see opportunities rather
-											than limitations is a game-changer. The book encourages
-											readers to step out of their comfort zones and embrace a
-											more positive outlook on life.
-										</p>
-										<div className="client-info-wrapper d-flex align-items-center justify-content-between">
-											<div className="client-info">
-												<div
-													className="client-img bg-cover"
-													style={{
-														backgroundImage:
-															"url('assets/images/homepage-1/testimonialProfileThumb1_2.jpg')",
-													}}
-												>
-													<div className="icon">
-														<img
-															loading="lazy"
-															className="shape"
-															src="assets/images/shape/shape.svg"
-															alt="img"
-														/>
-													</div>
-												</div>
-												<div className="content">
-													<h3>Dianne Russell</h3>
-													<span>Project Manager</span>
-													<div className="star">
-														<i className="fa-solid fa-star"></i>
-														<i className="fa-solid fa-star"></i>
-														<i className="fa-solid fa-star"></i>
-														<i className="fa-regular fa-star"></i>
-														<i className="fa-regular fa-star"></i>
-													</div>
-												</div>
-											</div>
-											{/* <!-- <div className="logo">
-                                        <img loading="lazy" src="assets/img/homepage-1/logo2.png" alt="">
-                                    </div> --> */}
-										</div>
-									</div>
-								</div>
-								<div className="swiper-slide">
-									<div className="testimonial-card-items-one">
-										<p>
-											{`"The Art of Possibility" by Rosamund Stone Zander and
-											Benjamin Zander is a transformative read that challenges
-											conventional thinking and opens up new possibilities. As a
-											reader, I found myself profoundly .`}
-										</p>
-										<div className="client-info-wrapper d-flex align-items-center justify-content-between">
-											<div className="client-info">
-												<div
-													className="client-img bg-cover"
-													style={{
-														backgroundImage:
-															"url('assets/images/homepage-1/testimonialProfileThumb1_3.jpg')",
-													}}
-												>
-													<div className="icon">
-														<img
-															loading="lazy"
-															className="shape"
-															src="assets/images/shape/shape.svg"
-															alt="img"
-														/>
-													</div>
-												</div>
-												<div className="content">
-													<h3>Ronald Richards</h3>
-													<span>Marketing Coordinator</span>
-													<div className="star">
-														<i className="fa-solid fa-star"></i>
-														<i className="fa-solid fa-star"></i>
-														<i className="fa-solid fa-star"></i>
-														<i className="fa-regular fa-star"></i>
-														<i className="fa-regular fa-star"></i>
-													</div>
-												</div>
-											</div>
-											{/* <!-- <div className="logo">
-                                        <img loading="lazy" src="assets/img/homepage-1/logo1.png" alt="">
-                                    </div> --> */}
-										</div>
-									</div>
-								</div>
-								<div className="swiper-slide">
-									<div className="testimonial-card-items-one">
-										<p>
-											{`From the very first chapter, the authors engage readers
-											with inspiring stories and practical insights. Benjamin
-											Zander's experiences as a conductor bring a unique
-											perspective to leadership .`}
-										</p>
-										<div className="client-info-wrapper d-flex align-items-center justify-content-between">
-											<div className="client-info">
-												<div
-													className="client-img bg-cover"
-													style={{
-														backgroundImage:
-															"url('assets/images/homepage-1/testimonialProfileThumb1_2.jpg')",
-													}}
-												>
-													<div className="icon">
-														<img
-															loading="lazy"
-															className="shape"
-															src="assets/images/shape/shape.svg"
-															alt="img"
-														/>
-													</div>
-												</div>
-												<div className="content">
-													<h3>Ronald Richards</h3>
-													<span>Marketing Coordinator</span>
-													<div className="star">
-														<i className="fa-solid fa-star"></i>
-														<i className="fa-solid fa-star"></i>
-														<i className="fa-solid fa-star"></i>
-														<i className="fa-regular fa-star"></i>
-														<i className="fa-regular fa-star"></i>
-													</div>
-												</div>
-											</div>
-											{/* <!-- <div className="logo">
-                                        <img loading="lazy" src="assets/img/homepage-1/logo2.png" alt="">
-                                    </div> --> */}
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+					<TestimonialSlider />
 				</div>
 			</section>
 			{/* <!-- testimonial ended --> */}

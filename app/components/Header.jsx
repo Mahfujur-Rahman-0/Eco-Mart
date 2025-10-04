@@ -13,9 +13,11 @@ import "../../public/assets/css/vendor/all.min.css";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { useAppContext } from "../context/AppContext";
 
 export default function Header() {
 	const [scrollC, setScrollC] = useState(0);
+	const { setMenu } = useAppContext();
 
 	useEffect(() => {
 		const handleScroll = () => {
@@ -81,7 +83,7 @@ export default function Header() {
 				<div className="container max-w-[1800px] flex items-center justify-between">
 					<div className="flex items-center gap-x-14 py-6">
 						<div>
-							<Link href="index.html">
+							<Link href="/">
 								<Image src={logo} alt="EcomArts" />
 							</Link>
 						</div>
@@ -146,18 +148,18 @@ export default function Header() {
 						<div className="hidden xl:block">
 							<menu className="text-title text-base font-medium flex items-center gap-x-10 header-menu">
 								<li className="menu-item">
-									<Link href="#">
+									<Link href="/">
 										Home <i className="fa-solid fa-plus"></i>
 									</Link>
 									<div className="sub-menu">
 										<div className="w-full grid grid-cols-4 gap-8">
 											<div className="relative group">
-												<Link href="index.html">
+												<Link href="/">
 													<Image src={HomeOne} alt="EcomArts" />
 												</Link>
 												<div className="absolute inset-0 invisible opacity-0 translate-y-2.5 transition-all duration-400 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 flex items-center justify-center">
 													<Link
-														href="index.html"
+														href="/"
 														className="!text-white px-5 py-3 bg-theme-1 rounded-lg"
 													>
 														Electronics
@@ -384,7 +386,7 @@ export default function Header() {
 						<div className="flex items-center gap-x-8 md:gap-x-10 lg:gap-x-14">
 							<Link
 								href="#"
-								id="open-search-modal"
+								onClick={() => setMenu(4)}
 								className="hover:text-theme-1 transition-colors text-lg hidden md:inline"
 							>
 								<i className="fa-regular fa-magnifying-glass"></i>
@@ -400,8 +402,7 @@ export default function Header() {
 							<Link
 								href="#"
 								role="button"
-								id="cart-openDrawer"
-								aria-label="Open cart drawer"
+								onClick={() => setMenu(3)}
 								className="hover:text-theme-1 transition-colors text-lg relative"
 							>
 								<i className="fa-light fa-bag-shopping"></i>
@@ -412,7 +413,7 @@ export default function Header() {
 							<Link
 								href="#"
 								role="button"
-								id="menu-openDrawer"
+								onClick={() => setMenu(2)}
 								aria-label="Open menu drawer"
 								className="text-theme-1 xl:hidden"
 							>

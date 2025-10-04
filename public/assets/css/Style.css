@@ -4406,7 +4406,7 @@ input[type="radio"]:checked ~ label:before {
 	transition-duration: 0.7s;
 }
 .common-newsletter-modal {
-	z-index: 2147483647;
+	z-index: 38;
 	--tw-translate-x: calc(calc(1 / 2 * 100%) * -1);
 	max-width: 800px;
 	translate: var(--tw-translate-x) var(--tw-translate-y);
@@ -4542,7 +4542,7 @@ input[type="radio"]:checked ~ label:before {
 .newsletter-modal-backdrop {
 	top: calc(var(--spacing) * 0);
 	left: calc(var(--spacing) * 0);
-	z-index: 99999;
+	z-index: 37;
 	background-color: var(--color-black);
 	opacity: 0.3;
 	width: 100%;
@@ -7779,8 +7779,8 @@ input[type="radio"]:checked ~ label:before {
 .testimonial-slider-one {
 	margin-right: -250px;
 }
-/*  
-.testimonial-slider-one .swiper-slide-active .testimonial-card-items-one {
+
+.testimonial-section .swiper-slide-active .testimonial-card-items-one {
 	border-top-style: var(--tw-border-style);
 	border-top-width: 3px;
 	border-top-color: var(--color-theme-1);
@@ -7796,9 +7796,9 @@ input[type="radio"]:checked ~ label:before {
 	transition-duration: var(--tw-duration, var(--default-transition-duration));
 	--tw-duration: 1s;
 	transition-duration: 1s;
-} */
-/*  
-.testimonial-slider-one
+}
+
+.testimonial-section
 	.swiper-slide-active
 	.testimonial-card-items-one
 	.client-info
@@ -7807,7 +7807,7 @@ input[type="radio"]:checked ~ label:before {
 	.shape {
 	filter: invert(23%) sepia(96%) saturate(2210%) hue-rotate(170deg)
 		brightness(95%) contrast(103%);
-} */
+}
 .testimonial-card-items-one {
 	margin-top: calc(var(--spacing) * 7.5);
 	margin-bottom: calc(var(--spacing) * 10);

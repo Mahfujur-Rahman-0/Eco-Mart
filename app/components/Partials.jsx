@@ -1,11 +1,29 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import { useAppContext } from "../context/AppContext";
+
 export default function Partials() {
+	const [newsletter, setNewsletter] = useState(false);
+	const { menu, setMenu } = useAppContext();
+	useEffect(() => {
+		const timer = setTimeout(() => {
+			setNewsletter(true);
+		}, 5000);
+		return () => clearTimeout(timer);
+	}, []);
+
 	return (
 		<>
+			<style>
+				{`${menu ? "body { overflow: hidden; }" : "body { overflow: auto; }"}`}
+			</style>
 			{/* <!-- partials started --> */}
 			{/* <!-- search modal --> */}
 			<div
-				id="search-modal"
-				className="fixed inset-0 items-center justify-center bg-white/25 backdrop-blur-xs hidden z-99999"
+				className={`fixed inset-0 items-center justify-center bg-white/25 backdrop-blur-xs ${
+					menu == 4 ? "" : "hidden"
+				} z-99999`}
 			>
 				<div className="w-full h-full relative">
 					<div className="bg-transparent max-w-2/3 mx-auto my-auto flex items-center justify-center h-full">
@@ -18,7 +36,7 @@ export default function Partials() {
 
 					<div className="absolute top-5 right-5">
 						<button
-							id="close-search-modal"
+							onClick={() => setMenu(null)}
 							className="text-theme-1 flex items-center justify-center cursor-pointer size-12 rounded-full border border-theme"
 						>
 							<i className="fa-solid fa-xmark text-2xl"></i>
@@ -29,15 +47,15 @@ export default function Partials() {
 
 			{/* <!-- Cart Drawer --> */}
 			<div
-				id="cart-drawer"
-				className="fixed inset-y-0 right-0 w-80 bg-white shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out z-50"
-				aria-hidden="true"
+				className={`cart-drawer fixed inset-y-0 right-0 w-80 bg-white shadow-lg transform ${
+					menu == 3 ? "" : "translate-x-full"
+				} transition-transform duration-300 ease-in-out z-50`}
 			>
 				{/* <!-- Cart Drawer Content --> */}
 				<div className="p-6 h-full flex flex-col">
 					{/* <!-- Close Button --> */}
 					<button
-						id="cart-closeDrawer"
+						onClick={() => setMenu(null)}
 						aria-label="Close cart drawer"
 						className="self-end p-3 rounded text-theme-1 focus:outline-none focus:ring-2 focus:ring-red-400 cursor-pointer"
 					>
@@ -72,39 +90,35 @@ export default function Partials() {
 			</div>
 
 			<div
-				id="cart-drawerBackdrop"
-				className="fixed inset-0 bg-black/50 transition-opacity duration-300 ease-in-out hidden z-40"
+				onClick={() => setMenu(null)}
+				className={`${
+					menu == 3 ? "" : "opacity-0 hidden"
+				} fixed inset-0 bg-black/50 transition-opacity duration-300 ease-in-out z-40`}
 			></div>
 
 			{/* <!-- Drawer (Mobile Menu) --> */}
 			<div
-				id="menu-drawer"
-				className="fixed inset-y-0 right-0 w-[400px] bg-title border-l-2 border-l-theme shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out z-50"
-				aria-hidden="true"
+				className={`Drawer-Backdrop fixed inset-y-0 right-0 w-85 bg-title border-l-2 border-l-theme shadow-lg transform ${
+					menu == 2 ? "" : "translate-x-full"
+				} transition-transform duration-300 ease-in-out z-50`}
 			>
 				<div className="p-4 h-full flex flex-col">
 					<button
-						id="menu-closeDrawer"
-						aria-label="Close menu drawer"
+						onClick={() => setMenu(null)}
 						className="self-end p-2 rounded-md text-theme hover:text-theme-1 focus:outline-none cursor-pointer"
 					>
 						<i className="fas fa-times text-xl"></i>
 					</button>
 
 					<p className="py-5 text-white md:hidden">
-						Nullam dignissim, ante scelerisque the is euismod fermentum odio sem
-						semper the is erat, a feugiat leo urna eget eros. Duis Aenean a
-						imperdiet risus. a feugiat leo urna eget eros. Duis Aenean a
-						imperdiet risus.
+						Experience a refined style that blends elegance with strength. Every
+						detail is designed to flow seamlessly, creating balance, energy, and
+						a lasting impression.
 					</p>
 
 					<ul className="mt-4 space-y-2.5 xl:hidden">
-						<li className="relative">
-							<button
-								className="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none"
-								aria-expanded="false"
-								aria-controls="homes-submenu"
-							>
+						<li className="relative homes-submenu-container">
+							<button className="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none">
 								Homes
 								<i
 									className="fas fa-chevron-down text-sm transform transition-transform duration-300"
@@ -175,12 +189,8 @@ export default function Partials() {
 								</li>
 							</ul>
 						</li>
-						<li className="relative">
-							<button
-								className="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none"
-								aria-expanded="false"
-								aria-controls="shop-submenu"
-							>
+						<li className="relative shop-submenu-container">
+							<button className="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none">
 								Shop
 								<i
 									className="fas fa-chevron-down text-sm transform transition-transform duration-300"
@@ -257,12 +267,8 @@ export default function Partials() {
 								</li>
 							</ul>
 						</li>
-						<li className="relative">
-							<button
-								className="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none"
-								aria-expanded="false"
-								aria-controls="pages-submenu"
-							>
+						<li className="relative pages-submenu-container">
+							<button className="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none">
 								Pages
 								<i
 									className="fas fa-chevron-down text-sm transform transition-transform duration-300"
@@ -331,12 +337,8 @@ export default function Partials() {
 								</li>
 							</ul>
 						</li>
-						<li className="relative">
-							<button
-								className="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none"
-								aria-expanded="false"
-								aria-controls="order-submenu"
-							>
+						<li className="relative order-submenu-container">
+							<button className="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none">
 								Order
 								<i
 									className="fas fa-chevron-down text-sm transform transition-transform duration-300"
@@ -373,12 +375,8 @@ export default function Partials() {
 								</li>
 							</ul>
 						</li>
-						<li className="relative">
-							<button
-								className="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none"
-								aria-expanded="false"
-								aria-controls="blogs-submenu"
-							>
+						<li className="relative blogs-submenu-container">
+							<button className="text-white hover:text-theme transition-colors font-semibold text-base px-4 py-2 w-full inline-flex items-center justify-between focus:outline-none">
 								Blogs
 								<i
 									className="fas fa-chevron-down text-sm transform transition-transform duration-300"
@@ -542,12 +540,17 @@ export default function Partials() {
 
 			{/* <!-- Drawer Backdrop --> */}
 			<div
-				id="menu-drawerBackdrop"
-				className="fixed inset-0 bg-black/50 bg-opacity-0 opacity-0 transition-opacity duration-300 ease-in-out hidden z-40"
+				onClick={() => setMenu(null)}
+				className={`${
+					menu != 2 ? "opacity-0 hidden" : ""
+				} fixed inset-0 bg-black/50 bg-opacity-0 transition-opacity duration-300 ease-in-out  z-40`}
 			></div>
 
 			{/* <!-- Newsletter Modal Start--> */}
-			<div className="common-newsletter-modal" id="newsletterModal">
+			<div
+				className="common-newsletter-modal"
+				style={{ display: newsletter ? "block" : "none" }}
+			>
 				<div className="modal-dialog">
 					<div className="modal-content">
 						<div className="modal-body">
@@ -555,7 +558,7 @@ export default function Partials() {
 								<div className="relative">
 									<button
 										type="button"
-										id="newsletterCloseBtn"
+										onClick={() => setNewsletter(false)}
 										className="close"
 									>
 										<span>&times;</span>
@@ -613,8 +616,9 @@ export default function Partials() {
 				</div>
 			</div>
 			<div
+				onClick={() => setNewsletter(false)}
+				style={{ display: newsletter ? "block" : "none" }}
 				className="newsletter-modal-backdrop"
-				id="newsletterModalBackdrop"
 			></div>
 			{/* <!-- partials ended --> */}
 		</>

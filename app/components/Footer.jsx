@@ -21,6 +21,7 @@ export default function Footer() {
 								</h3>
 							</div>
 						</div>
+
 						<div
 							className="contact-info-items"
 							data-aos="fade-up"
@@ -76,7 +77,7 @@ export default function Footer() {
 								data-aos-delay="200"
 							>
 								<div className="widget-head">
-									<a href="index.html">
+									<a href="/">
 										<img
 											loading="lazy"
 											src="assets/images/logo/white-logo.svg"

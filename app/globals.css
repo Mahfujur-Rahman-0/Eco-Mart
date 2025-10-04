@@ -69,3 +69,18 @@
 .featured-products {
 	margin-top: calc(var(--spacing) * 5);
 }
+.Drawer-Backdrop {
+	overflow-y: auto !important;
+	overflow-x: hidden !important;
+}
+.homes-submenu-container:hover #homes-submenu,
+.shop-submenu-container:hover #shop-submenu,
+.pages-submenu-container:hover #pages-submenu,
+.blogs-submenu-container:hover #blogs-submenu,
+.order-submenu-container:hover #order-submenu {
+	display: block;
+	max-height: 400px;
+}
+.w-85 {
+	width: 85%;
+}
