@@ -1,4 +1,4 @@
-import Partials from "@/app/components/Partials";
+import Partials from "../../../components/Partials";
 
 export default function OrderHistory() {
 	return (

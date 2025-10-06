@@ -1,6 +1,6 @@
 import Image from "next/image";
 import cartThumb1_2 from "../../../../public/assets/images/shop/cart-thumb1_1.jpg";
-import Partials from "@/app/components/Partials";
+import Partials from "../../../components/Partials";
 
 export default function wishlist() {
 	return (

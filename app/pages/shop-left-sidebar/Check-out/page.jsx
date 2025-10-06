@@ -2,7 +2,7 @@ import Image from "next/image";
 import cartThumb1_2 from "../../../../public/assets/images/shop/cart-thumb1_1.jpg";
 import credit_card from "../../../../public/assets/images/shop/credit_card.jpg";
 import paypal from "../../../../public/assets/images/shop/paypal.jpg";
-import Partials from "@/app/components/Partials";
+import Partials from "../../../components/Partials";
 
 export default function CheckOut() {
 	return (
