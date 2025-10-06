@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useAppContext } from "../context/AppContext";
 
 import commonModal from "../../public/assets/images/modal/common-modal.jpg";
@@ -8,12 +8,13 @@ import commonModal from "../../public/assets/images/modal/common-modal.jpg";
 export default function Partials() {
 	const [newsletter, setNewsletter] = useState(false);
 	const { menu, setMenu } = useAppContext();
+	const newsletterChecker = useRef(true);
 	useEffect(() => {
 		const timer = setTimeout(() => {
-			setNewsletter(true);
+			newsletterChecker.current == true && setNewsletter(true);
 		}, 5000);
 		return () => clearTimeout(timer);
-	}, []);
+	}, [newsletter]);
 
 	return (
 		<>
@@ -596,9 +597,9 @@ export default function Partials() {
 													<input
 														type="checkbox"
 														id="vehicle1"
-														name="vehicle1"
-														value="Bike"
-														hidden
+														onChange={(e) =>
+															(newsletterChecker.current = !e.target.checked)
+														}
 													/>
 													<label htmlFor="vehicle1">
 														Do not show this window

@@ -42,7 +42,7 @@ export default function Header() {
 					id="header-top"
 				>
 					<div className="container max-w-[1800px] h-[50px] flex items-center justify-between">
-						<span className="hidden sm:inline">
+						<span className="cellNum hidden sm:inline">
 							<i className="fa-solid fa-phone"></i>
 							<a href="tel:+123123123">+880 1234 123123</a>
 						</span>
@@ -69,7 +69,7 @@ export default function Header() {
 							<div className="h-4 w-px bg-icon hidden sm:block"></div>
 							<div>
 								<Link
-									href="dashboard.html"
+									href="/pages/shop-left-sidebar/Profile"
 									className="items-center gap-x-2.5 inline-flex !text-white font-medium hover:!text-theme transition-colors"
 								>
 									<i className="fa-solid fa-user"></i>
@@ -265,34 +265,25 @@ export default function Header() {
 													Shop Left Sidebar
 												</Link>
 											</li>
+
 											<li>
-												<Link href="shop-right-sidebar.html">
-													Shop Right Sidebar
+												<Link href="/pages/shop-left-sidebar/Single-product">
+													Single Page
+												</Link>
+											</li>
+
+											<li>
+												<Link href="/pages/shop-left-sidebar/Cart">Cart</Link>
+											</li>
+											<li>
+												<Link href="/pages/shop-left-sidebar/wishlist">
+													Wishlist
 												</Link>
 											</li>
 											<li>
-												<Link href="shop-without-sidebar.html">
-													Shop Without Sidebar
+												<Link href="/pages/shop-left-sidebar/Check-out">
+													Checkout
 												</Link>
-											</li>
-											<li>
-												<Link href="shop-details-one.html">
-													Shop Details One
-												</Link>
-											</li>
-											<li>
-												<Link href="shop-details-two.html">
-													Shop Details Two
-												</Link>
-											</li>
-											<li>
-												<Link href="cart.html">Cart</Link>
-											</li>
-											<li>
-												<Link href="wishlist.html">Wishlist</Link>
-											</li>
-											<li>
-												<Link href="checkout.html">Checkout</Link>
 											</li>
 										</ul>
 									</div>
@@ -317,10 +308,12 @@ export default function Header() {
 												<Link href="look-book.html">Look Book</Link>
 											</li>
 											<li>
-												<Link href="login.html">Login</Link>
+												<Link href="/pages/shop-left-sidebar/Login">Login</Link>
 											</li>
 											<li>
-												<Link href="register.html">Register</Link>
+												<Link href="/pages/shop-left-sidebar/Sign-in">
+													Sign in
+												</Link>
 											</li>
 											<li>
 												<Link href="dashboard.html">Dashboard</Link>

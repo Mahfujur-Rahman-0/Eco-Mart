@@ -17,7 +17,7 @@ export default function GallerySliderTwo() {
 	return (
 		<>
 			<Swiper
-				speed={2000}
+				// speed={2000}
 				modules={[Pagination, Autoplay]}
 				spaceBetween={30}
 				slidesPerView={6}
